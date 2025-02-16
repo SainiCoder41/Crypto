@@ -1,0 +1,24 @@
+{
+  "name": "crypto_world",
+  "version": "1.0.0",
+  "main": "app.js",
+  "homepage": "https://github.com/SainiCoder41/Crypto",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /Crypto/",
+    "deploy": "npm run build && gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  }
+}

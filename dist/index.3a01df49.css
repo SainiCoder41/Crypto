@@ -1,0 +1,143 @@
+body {
+  box-sizing: border-box;
+  color: #f1f1f1;
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.heading {
+  text-align: center;
+  color: #fc0;
+  letter-spacing: 2px;
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.main {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+}
+
+.input {
+  color: #f1f1f1;
+  background-color: #1a1a1a;
+  border: 2px solid #fc0;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  max-width: 500px;
+  height: 40px;
+  padding: 0 15px;
+  font-size: 18px;
+  transition: border-color .3s;
+}
+
+.input:focus {
+  border-color: #00b8d4;
+}
+
+.btn {
+  color: #121212;
+  cursor: pointer;
+  background-color: #fc0;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 45px;
+  margin-top: 20px;
+  font-size: 18px;
+  transition: background-color .3s;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #00b8d4;
+}
+
+.content-section {
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.content-section h2 {
+  color: #0f0;
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.content-section h2.symbol {
+  color: #0077b6;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.content-section .image-container {
+  justify-content: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.content-section img {
+  border-radius: 10px;
+  max-width: 150px;
+  height: auto;
+}
+
+.content-section ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.content-section li {
+  color: #333;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: transform .2s, background-color .3s;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+.content-section li:first-child {
+  color: #fff;
+  background-color: #4caf50;
+}
+
+.content-section li:last-child {
+  color: #fff;
+  background-color: tomato;
+}
+
+.content-section li:hover {
+  color: #333;
+  background-color: #f1f1f1;
+  transform: translateY(-5px);
+}
+
+.content-section li:first-child:hover {
+  background-color: #45a049;
+}
+
+.content-section li:last-child:hover {
+  background-color: #e53e32;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
